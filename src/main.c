@@ -8,6 +8,8 @@ int main(void)
 
     // call print sub function
     print_sub();
+    // print param
+    print_param();
 
 
     return 0;
