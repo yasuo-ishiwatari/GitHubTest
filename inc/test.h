@@ -3,14 +3,11 @@
 
 #include <stdbool.h>
 
-#define LOOP_CONTINUE 0
-#define LOOP_END -1
-
 // sub function
 void print_sub(void);
 void print_param(void);
 void set_int_param(int prm);
-void set_bool_param(bool prm);
-int main_loop(void);
+void set_loop_brake(bool fg);
+void main_loop(void);
 
 #endif  // __TEST__

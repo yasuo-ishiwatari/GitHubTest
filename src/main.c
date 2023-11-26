@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "test.h"
+#include "test_param.h"
 
 int main(void)
 {
@@ -11,13 +12,9 @@ int main(void)
     // print param
     print_param();
 
-
-    while(1)
+    while(loop_brake == false)
     {
-        if (main_loop() == LOOP_END)
-        {
-            break;
-        }
+        main_loop();
     }
 
     return 0;
