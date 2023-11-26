@@ -12,5 +12,13 @@ int main(void)
     print_param();
 
 
+    while(1)
+    {
+        if (main_loop() == LOOP_END)
+        {
+            break;
+        }
+    }
+
     return 0;
 }
