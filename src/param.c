@@ -1,4 +1,4 @@
 #include <stdbool.h>
 
-int int_param = 0;
+int param1 = 0;
 bool loop_brake = false;
