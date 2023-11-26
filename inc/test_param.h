@@ -5,7 +5,7 @@
 
 // test param
 
-int int_param = 0;
-bool bool_param = false;
+extern int int_param;
+extern bool loop_brake;
 
-#endif  // __TEST_PARAM
+#endif  // __TEST_PARAM__

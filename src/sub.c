@@ -11,7 +11,7 @@ void print_sub(void)
 void print_param(void)
 {
     printf("int param = %d\n",int_param);
-    if (bool_param)
+    if (loop_brake)
     {
         printf("bool param = true\n");
     }
@@ -27,7 +27,7 @@ void set_int_param(int prm)
     int_param = prm;
 }
 
-void set_bool_param(bool prm)
+void set_loop_brake(bool fg)
 {
-    bool_param = prm;
+    loop_brake = fg;
 }
