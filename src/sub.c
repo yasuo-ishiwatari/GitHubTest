@@ -10,7 +10,7 @@ void print_sub(void)
 
 void print_param(void)
 {
-    printf("param1 = %d\n",param1);
+    printf("int param = %d\n",param1);
     if (loop_brake)
     {
         printf("loop brake = true\n");
@@ -22,7 +22,7 @@ void print_param(void)
     
 }
 
-void set_int_param(int prm)
+void set_param1(int prm)
 {
     param1 = prm;
 }
