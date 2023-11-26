@@ -13,11 +13,11 @@ void print_param(void)
     printf("int param = %d\n",param1);
     if (loop_brake)
     {
-        printf("bool param = true\n");
+        printf("loop brake = true\n");
     }
     else
     {
-        printf("bool param = false\n");
+        printf("loop brake = false\n");
     }
     
 }

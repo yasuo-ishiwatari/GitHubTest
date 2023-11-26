@@ -15,7 +15,9 @@ void main_loop(void)
     printf("param1 = ");
     int param11;
     scanf("%d",&param11);
-
+    // disp param
+    print_param();
+  
     char dummy;
     // scanf(...);
     scanf("%c",&dummy);    //前に押された'\n'がはいる
