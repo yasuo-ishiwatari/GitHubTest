@@ -10,4 +10,6 @@ void main_loop(void)
     {
         set_loop_brake(true);
     }
+    // disp param
+    print_param();
 }
