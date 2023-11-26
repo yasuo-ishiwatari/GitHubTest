@@ -9,5 +9,14 @@ void main_loop(void)
     if (key == 'e')
     {
         set_loop_brake(true);
+        return;
     }
+    // set param
+    printf("param1 = ");
+    int param11;
+    scanf("%d",&param11);
+
+    char dummy;
+    // scanf(...);
+    scanf("%c",&dummy);    //前に押された'\n'がはいる
 }
