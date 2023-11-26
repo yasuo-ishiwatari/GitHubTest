@@ -6,7 +6,7 @@
 // sub function
 void print_sub(void);
 void print_param(void);
-void set_int_param(int prm);
+void set_param1(int prm);
 void set_loop_brake(bool fg);
 void main_loop(void);
 
