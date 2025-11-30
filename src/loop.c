@@ -21,4 +21,8 @@ void main_loop(void)
     char dummy;
     // scanf(...);
     scanf("%c",&dummy);    //前に押された'\n'がはいる
+
+    printf("connit-7 on test9");
+
+
 }
