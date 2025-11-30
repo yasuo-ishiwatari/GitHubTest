@@ -22,6 +22,8 @@ int main(void)
     printf("connit-2 on test4");
     
     printf("connit-3 on test5");
+    
+    printf("connit-4 on test6");
    
 
     return 0;
