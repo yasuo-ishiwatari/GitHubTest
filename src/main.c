@@ -19,5 +19,7 @@ int main(void)
 
     printf("commit-1\n");
 
+    printf("connit-2 on test4");
+
     return 0;
 }
