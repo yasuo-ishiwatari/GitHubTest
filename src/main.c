@@ -17,5 +17,7 @@ int main(void)
         main_loop();
     }
 
+    printf("commit-1\n");
+
     return 0;
 }
